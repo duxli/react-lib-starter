@@ -1,12 +1,13 @@
-# `@utori-dev/template-simple-typescript-library`
+# `@duxli/react-lib-starter`
 
-Simple and imperfect template for a TypeScript library.
+Simple and imperfect template for a React library.
 
 ## Overview
 
-This template allows you to create a simple TypeScript library.
+This template allows you to create a simple React library.
 
 It includes basic configurations for [Prettier](prettier), [Jest](jest), and [TypeScript][typescript].
+It also includes a simple [demo app][demo] created with [Create React App][create-react-app].
 
 ## Getting Started
 
@@ -37,7 +38,7 @@ See the [documentation for configuring Prettier][prettier_docs_config].
 
 This project includes a starter `jest.config.json` configuration for [Jest][jest].
 
-You will probably want to configure this to include the appropriate [`testEnvironment`][jest_docs_config_testenvironment].
+You will probably want to configure this to include the appropriate [`testEnvironment`][jest_docs_config_test-environment].
 
 See the [documentation for configuring Jest][jest_docs_config].
 
@@ -62,11 +63,12 @@ To publish your package on the [NPM registry][npmjs], you can run `npm run relea
 
 It is wise to do a dry run before actually publishing. You can do this with `npm run release -- --dry-run`.
 
-[git_repo]: https://github.com/utori-dev/template-simple-typescript-library
+[git_repo]: https://github.com/duxli/react-lib-starter
+[demo]: ./demo/
 [github_docs_template]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 [jest]: https://jestjs.io/
 [jest_docs_config]: https://jestjs.io/docs/configuration
-[jest_docs_config_testenvironment]: https://jestjs.io/docs/configuration#testenvironment-string
+[jest_docs_config_test-environment]: https://jestjs.io/docs/configuration#testenvironment-string
 [npmjs]: https://www.npmjs.com/
 [prettier]: https://prettier.io/
 [prettier_docs_config]: https://prettier.io/docs/en/configuration.html
@@ -74,3 +76,4 @@ It is wise to do a dry run before actually publishing. You can do this with `npm
 [typescript_docs_config]: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 [typescript_ref_config]: https://www.typescriptlang.org/tsconfig
 [typescript_ref_config_lib]: https://www.typescriptlang.org/tsconfig#lib
+[create-react-app]: https://create-react-app.dev/
